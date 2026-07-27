@@ -584,3 +584,52 @@ a {
 .project-note {
   color: var(--muted);
 }
+
+.project-card {
+  min-height: 100%;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.project-tags span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.10);
+  color: var(--primary-dark);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.project-actions {
+  margin-top: 8px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.project-link {
+  color: var(--primary-dark);
+  font-weight: 700;
+}
+
+.project-link:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.project-note {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
