@@ -1176,3 +1176,36 @@ a {
     font-size: 1.7rem;
   }
 }
+
+/* CORREÇÃO FINAL MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto !important;
+    padding-bottom: 20px !important;
+  }
+
+  .hero-content {
+    padding: 78px 0 24px !important;
+  }
+
+  .hero-side-card {
+    margin-bottom: 18px !important;
+  }
+
+  .section {
+    padding: 48px 0 !important;
+  }
+
+  #sobre {
+    padding-top: 42px !important;
+    padding-bottom: 42px !important;
+  }
+
+  #projetos {
+    padding-top: 42px !important;
+  }
+
+  .whatsapp-float {
+    display: none !important;
+  }
+}
