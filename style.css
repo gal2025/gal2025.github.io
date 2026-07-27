@@ -453,3 +453,19 @@ a {
   background: #f8fafc;
   color: #0f172a !important;
 }
+.contact-box .hero-buttons .email-btn {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid rgba(148, 163, 184, 0.22) !important;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  opacity: 1 !important;
+  -webkit-text-fill-color: #0f172a !important;
+}
+
+.contact-box .hero-buttons .email-btn:hover,
+.contact-box .hero-buttons .email-btn:focus,
+.contact-box .hero-buttons .email-btn:visited {
+  background: #f8fafc !important;
+  color: #0f172a !important;
+  -webkit-text-fill-color: #0f172a !important;
+}
