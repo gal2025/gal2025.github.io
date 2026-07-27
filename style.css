@@ -783,3 +783,11 @@ a {
     width: 100%;
   }
 }
+
+.hero-content.hero-grid {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+  gap: 34px;
+  align-items: center;
+}
