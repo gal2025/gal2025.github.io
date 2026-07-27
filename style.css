@@ -433,39 +433,22 @@ a {
     text-align: center;
   }
 }
-.contact-box .btn.secondary {
-  background: #ffffff;
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-
-.contact-box .btn.secondary:hover {
-  background: #f8fafc;
-}
-.email-btn {
-  background: #ffffff;
-  color: #0f172a !important;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-}
-
-.email-btn:hover {
-  background: #f8fafc;
-  color: #0f172a !important;
-}
-.contact-box .hero-buttons .email-btn {
+.contact-box .hero-buttons a:first-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: #ffffff !important;
   color: #0f172a !important;
-  border: 1px solid rgba(148, 163, 184, 0.22) !important;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-  opacity: 1 !important;
   -webkit-text-fill-color: #0f172a !important;
+  border: 1px solid rgba(148, 163, 184, 0.22) !important;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08) !important;
+  opacity: 1 !important;
 }
 
-.contact-box .hero-buttons .email-btn:hover,
-.contact-box .hero-buttons .email-btn:focus,
-.contact-box .hero-buttons .email-btn:visited {
+.contact-box .hero-buttons a:first-child:hover {
   background: #f8fafc !important;
   color: #0f172a !important;
   -webkit-text-fill-color: #0f172a !important;
 }
+
+
