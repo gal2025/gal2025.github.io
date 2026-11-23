@@ -145,6 +145,15 @@ section { padding-block: clamp(3.5rem, 8vw, 6rem); }
 .caps { display: flex; flex-wrap: wrap; gap: 0.6rem; max-width: 760px; }
 .cap { border: 1px solid var(--line); border-radius: 999px; padding: 0.5rem 1.1rem; font-size: 0.92rem; color: var(--ink-soft); background: var(--paper); }
 .section-soft .cap { background: var(--paper); }
+#competencias h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+#competencias .caps + h3 {
+  margin-top: 2.5rem;
+}
 
 /* ---------- projects ---------- */
 .projects { display: flex; flex-direction: column; }
